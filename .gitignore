@@ -1,0 +1,21 @@
+# Local Codex state and cleanup backups
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.jsonl
+*.bak
+*.bak-*
+auth.json
+config.toml
+generated_images/
+sessions/
+archived_sessions/
+shell_snapshots/
+.tmp/
+tmp/
+
+# Local editor/runtime noise
+.DS_Store
+__pycache__/
+*.pyc

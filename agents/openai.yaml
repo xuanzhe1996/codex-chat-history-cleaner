@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Chat History Cleaner"
+  short_description: "Clean Codex chat search remnants safely"
+  default_prompt: "Use $codex-chat-history-cleaner to inspect and clean local Codex chat history remnants with a dry run first."
+
+policy:
+  allow_implicit_invocation: true
